@@ -2,10 +2,13 @@
 
 A Flutter application for real-time gym workout rep counting using ML Kit Pose Detection.
 
+![App Demo](screenshots/app_demo.gif)
+
 ## Features
 - Real-time pose detection.
 - Squat rep counting.
 - Visual overlay of body landmarks.
+- Support for multiple exercises (pushup, lunge, jumping jack, crunch, deadlift, plank, overhead press, high knees).
 
 ## Getting Started
 
