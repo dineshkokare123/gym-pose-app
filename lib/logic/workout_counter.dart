@@ -8,7 +8,7 @@ class WorkoutCounter {
   bool _isDown = false; // Used for Squat, Pushup, Lunge, Crunch, Deadlift, Overhead Press
   bool _isHandsUp = false; // Used for Jumping Jack
   bool _isPlank = false; // Used for Plank
-  int _plankDuration = 0; // Seconds for plank
+   // Seconds for plank
   DateTime? _plankStartTime;
   final WorkoutType type;
 

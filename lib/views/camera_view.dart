@@ -1,14 +1,14 @@
 import 'dart:io';
+
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:google_mlkit_pose_detection/google_mlkit_pose_detection.dart';
 import 'package:permission_handler/permission_handler.dart';
 
+import '../logic/workout_counter.dart';
 import '../main.dart';
 import '../services/pose_detector_service.dart';
 import '../utils/camera_utils.dart';
-import '../logic/workout_counter.dart';
 import 'pose_painter.dart';
 
 class CameraView extends StatefulWidget {
